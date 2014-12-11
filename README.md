@@ -12,8 +12,7 @@ This Symfony2 bundle integrates the php-kissmetrics-api in your project.
 
 Activate in AppKernel:
 
-```
-php
+```php
 
 <?php
 // app/AppKernel.php
@@ -31,8 +30,7 @@ public function registerBundles()
 
 # Configuration
 
-```
-yml
+```yml
 
 ricbra_kiss_metrics:
     api_key: y0ur-4p1-k3y
@@ -43,8 +41,7 @@ ricbra_kiss_metrics:
 
 # Usage
 
-```
-php
+```php
 
 $this->get('kissmetrics')->setProperties([
     '_p' => 'Facebook #23',
